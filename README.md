@@ -3,4 +3,4 @@ pepTrans: Leveraging Protein Language Model Embeddings for Structure-Free Multi-
 
 
 # License
-This software is copyrighted by Bioinformatics Lab (https://nsclbio.jbnu.ac.kr)/ @ Jeonbuk National University.
+This software is copyrighted by [Bioinformatics Lab](https://nsclbio.jbnu.ac.kr/) @ Jeonbuk National University.
