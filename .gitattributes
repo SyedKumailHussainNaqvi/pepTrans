@@ -2,3 +2,4 @@ pepTrans[[:space:]]weight/Virtual[[:space:]]alanine[[:space:]]scanning/*.h5 filt
 test[[:space:]]dataset/Peptide[[:space:]]Binding[[:space:]]Residues/*.h5 filter=lfs diff=lfs merge=lfs -text
 pepTrans[[:space:]]weight/Binary[[:space:]]pepPIs[[:space:]]prediction/*.h5 filter=lfs diff=lfs merge=lfs -text
 pepTrans[[:space:]]weight/Binding[[:space:]][[:space:]]Affinity/*.h5 filter=lfs diff=lfs merge=lfs -text
+pepTrans[[:space:]]weight/Generalizability/*.h5 filter=lfs diff=lfs merge=lfs -text
