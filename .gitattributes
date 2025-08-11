@@ -15,3 +15,4 @@ pepTrans[[:space:]]weight/Peptide[[:space:]]PBD[[:space:]]Prediction/WW/*.h5 fil
 pepTrans[[:space:]]weight/Peptide[[:space:]]Virtual[[:space:]]Screening/*.h5 filter=lfs diff=lfs merge=lfs -text
 test[[:space:]]dataset/Binding[[:space:]][[:space:]]Affinity/*.csv filter=lfs diff=lfs merge=lfs -text
 test[[:space:]]dataset/Generalizability/*.csv filter=lfs diff=lfs merge=lfs -text
+test[[:space:]]dataset/Generalizability/*.h5 filter=lfs diff=lfs merge=lfs -text
