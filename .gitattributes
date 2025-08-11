@@ -9,3 +9,4 @@ pepTrans[[:space:]]weight/Peptide[[:space:]]PBD[[:space:]]Prediction/PTB/*.h5 fi
 pepTrans[[:space:]]weight/Peptide[[:space:]]PBD[[:space:]]Prediction/PTP/*.h5 filter=lfs diff=lfs merge=lfs -text
 pepTrans[[:space:]]weight/Peptide[[:space:]]PBD[[:space:]]Prediction/SH2/*.h5 filter=lfs diff=lfs merge=lfs -text
 pepTrans[[:space:]]weight/Peptide[[:space:]]PBD[[:space:]]Prediction/SH3/*.h5 filter=lfs diff=lfs merge=lfs -text
+pepTrans[[:space:]]weight/Peptide[[:space:]]PBD[[:space:]]Prediction/TK/*.h5 filter=lfs diff=lfs merge=lfs -text
