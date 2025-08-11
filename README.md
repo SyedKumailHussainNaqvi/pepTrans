@@ -26,5 +26,7 @@ The recommended approach for setting up **pepTrans** is via [Anaconda](https://d
 
 ```bash
 git clone https://github.com/SyedKumailHussainNaqvi/pepTrans.git
+
+```
 # License
 This software is copyrighted by [Bioinformatics Lab](https://nsclbio.jbnu.ac.kr/) @ Jeonbuk National University.
