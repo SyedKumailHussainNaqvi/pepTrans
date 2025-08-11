@@ -15,10 +15,7 @@ The following is the list of required libraries and programs, along with the ver
 - [ ] [NumPy](https://numpy.org/) (1.26.4) — Numerical computation library used for tensor and matrix operations.
 - [ ] [Pandas](https://pandas.pydata.org/) (2.2.3) — Data manipulation and analysis.
 - [ ] [Matplotlib](https://matplotlib.org/) (3.4.3) — Visualization of performance metrics and results.
-- [ ] [Seaborn](https://seaborn.pydata.org/) (0.12.2) — Statistical data visualization.
 - [ ] [h5py](https://www.h5py.org/) (3.9.0) — Reading and writing HDF5 data files containing embeddings and labels.
-- [ ] [Tables](https://www.pytables.org/) (3.9.2) — Handling large hierarchical datasets.
-- [ ] [Plotly](https://plotly.com/) (5.15.0) — Interactive data visualization.
 
 > **Note:** This environment has been tested with NVIDIA GPUs supporting CUDA 11.6.2 and cuDNN 8.5.0.96. Ensure that your system meets the GPU requirements for optimal performance.
 > 
