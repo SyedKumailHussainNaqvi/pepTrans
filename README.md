@@ -17,10 +17,6 @@ The following is the list of required libraries and programs, along with the ver
 - [ ] [Matplotlib](https://matplotlib.org/) (3.4.3) — Visualization of performance metrics and results.
 - [ ] [Seaborn](https://seaborn.pydata.org/) (0.12.2) — Statistical data visualization.
 - [ ] [h5py](https://www.h5py.org/) (3.9.0) — Reading and writing HDF5 data files containing embeddings and labels.
-- [ ] [Optuna](https://optuna.org/) (3.2.0) — Hyperparameter optimization framework.
-- [ ] [Keras Self-Attention](https://github.com/CyberZHG/keras-self-attention) (0.51.0) — Attention mechanism integration for neural networks.
-- [ ] [Keras Multi-Head](https://pypi.org/project/keras-multi-head/) (0.29.0) — Multi-head attention layers for model enhancement.
-- [ ] [XGBoost](https://xgboost.readthedocs.io/) (1.7.6) — Gradient boosting framework for baseline and comparison models.
 - [ ] [Tables](https://www.pytables.org/) (3.9.2) — Handling large hierarchical datasets.
 - [ ] [Plotly](https://plotly.com/) (5.15.0) — Interactive data visualization.
 
