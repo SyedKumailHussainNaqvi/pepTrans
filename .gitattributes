@@ -6,3 +6,4 @@ pepTrans[[:space:]]weight/Generalizability/*.h5 filter=lfs diff=lfs merge=lfs -t
 pepTrans[[:space:]]weight/Peptide[[:space:]]Binding[[:space:]]Residues/*.h5 filter=lfs diff=lfs merge=lfs -text
 pepTrans[[:space:]]weight/Peptide[[:space:]]PBD[[:space:]]Prediction/PDZ/*.h5 filter=lfs diff=lfs merge=lfs -text
 pepTrans[[:space:]]weight/Peptide[[:space:]]PBD[[:space:]]Prediction/PTB/*.h5 filter=lfs diff=lfs merge=lfs -text
+pepTrans[[:space:]]weight/Peptide[[:space:]]PBD[[:space:]]Prediction/PTP/*.h5 filter=lfs diff=lfs merge=lfs -text
