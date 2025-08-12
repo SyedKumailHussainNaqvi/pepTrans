@@ -18,15 +18,34 @@ The following is the list of required libraries and programs, along with the ver
 - [ ] [h5py](https://www.h5py.org/) (3.9.0) — Reading and writing HDF5 data files containing embeddings and labels.
 
 > **Note:** This environment has been tested with NVIDIA GPUs supporting CUDA 11.6.2 and cuDNN 8.5.0.96. Ensure that your system meets the GPU requirements for optimal performance.
-## Installation Guide
+### Install Option 1: Install via `pepTrans_env.yml` file (Recommended)
 
-The recommended approach for setting up **pepTrans** is via [Anaconda](https://docs.anaconda.com/anaconda/install/index.html), ensuring a reproducible and isolated environment.  
-
-### 1. Clone the repository
+We can easily install the environment by using the provided **`pepTrans_env.yml`** file. This configuration contains all required dependencies with tested versions.
 
 ```bash
+# 1. Clone the repository
 git clone https://github.com/SyedKumailHussainNaqvi/pepTrans.git
 
-```
+# 2. Navigate to the project directory
+cd pepTrans
+
+# 3. Create the conda environment from the .yml file
+conda env create -f pepTrans_env.yml
+
+# 4. Activate the environment
+conda activate pepTrans
+
+### Install Option 2: Install manually
+# 1. Create a new conda environment with Python 3.9
+conda create -n pepTrans python=3.9 -y
+
+# 2. Activate the environment
+conda activate pepTrans
+
+# 3. Install core dependencies via conda
+conda install tensorflow=2.9.0 cudatoolkit=11.6 scikit-learn=0.24.2 numpy=1.26.4 pandas=2.2.3 matplotlib=3.4.3 h5py=3.9.0 -c conda-forge -y
+
+# 4. (Optional) Install any additional dependencies via pip if required
+# pip install <package-name>
 # License
 This software is copyrighted by [Bioinformatics Lab](https://nsclbio.jbnu.ac.kr/) @ Jeonbuk National University.
