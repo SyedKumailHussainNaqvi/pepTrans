@@ -56,5 +56,9 @@ conda install tensorflow=2.9.0 cudatoolkit=11.6 scikit-learn=0.24.2 numpy=1.26.4
  pip install <package-name>
 ```
 This manual installation method gives us more control over versions and sources but is more prone to dependency conflicts compared to using the .yml file
+## Dataset and Protein Language Model (pLM) Features
+* **Input**: Raw protein sequences in FASTA or CSV format.  
+* **Feature Extraction**: Performed using pre-trained pLMs to generate embeddings.  
+* **Output**: Embedding vectors stored in `.csv` or `.h5` format for model training and evaluation.
 # License
 This software is copyrighted by [Bioinformatics Lab](https://nsclbio.jbnu.ac.kr/) @ Jeonbuk National University.
