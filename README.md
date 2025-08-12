@@ -121,6 +121,7 @@ python main.py \
 ```
 ### 2. Peptide Binding Site Prediction (bs)
 **Train with cross-validation folds from scratch:**
+```bash
 python main.py \
     --mode bs \
     --train_h5 path/to/benchmark_dataset.h5 \
