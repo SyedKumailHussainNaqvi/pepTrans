@@ -65,5 +65,36 @@ For more details, consult the [ProtTrans GitHub repository](https://github.com/a
 * **Input**: Raw protein sequences in FASTA or CSV format.  
 * **Feature Extraction**: Performed using pre-trained pLMs to generate embeddings.  
 * **Output**: Embedding vectors stored in `.csv` or `.h5` format for model training and evaluation.
+
+  ## Supported Parameters of pepTrans
+  For a detailed description of pepTrans parameters and options, run:
+  ```bash
+python main.py --help
+```
+This will display all supported parameters of pepTrans:
+```
+usage: main.py [-h] --mode {b,bs,ba,pbd,vs,vas} [--csv CSV] [--vas_csv VAS_CSV] [--label LABEL]
+               [--train_h5 TRAIN_H5] [--test_h5 TEST_H5] [--gpu GPU] [--weights WEIGHTS]
+               [--test_csv TEST_CSV]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --mode {b,bs,ba,pbd,vs,vas}
+                        Mode of operation:
+                          'b'   - Binary classification (peptide–protein binding)
+                          'bs'  - Binding site prediction (residue-level)
+                          'ba'  - Binding affinity regression
+                          'pbd' - Peptide backbone distance prediction
+                          'vs'  - Virtual screening of peptides
+                          'vas' - Virtual alanine scanning mutagenesis
+  --csv CSV             Path to input CSV file (for training or evaluation)
+  --vas_csv VAS_CSV     Path to alanine-scanning mutated CSV input (required for 'vas' mode)
+  --label LABEL         Target column name in CSV (default: 'Label')
+  --train_h5 TRAIN_H5   Path to training HDF5 file (for binding site prediction training)
+  --test_h5 TEST_H5     Path to test HDF5 file (for binding site prediction evaluation)
+  --gpu GPU             GPU ID to use (default: '0')
+  --weights WEIGHTS     Path to pretrained model weights file (for evaluation/inference)
+  --test_csv TEST_CSV   Path to test CSV file (for evaluation of binary classification or regression)
+```
 # License
 This software is copyrighted by [Bioinformatics Lab](https://nsclbio.jbnu.ac.kr/) @ Jeonbuk National University.
