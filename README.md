@@ -39,8 +39,9 @@ conda env create -f pepTrans_env.yml
 3. Activate the environment
 conda activate pepTrans
 ```
-
+Once the environment is activated, we can proceed to run pepTrans for training, evaluation, or inference as described in the Usage section of this document.
 ### Install Option 2: Install manually
+If the environment installation via the provided .yml file fails, we can manually create it by installing the dependencies step-by-step:
 ```bash
  1. Create a new conda environment with Python 3.9
 conda create -n pepTrans python=3.9 -y
@@ -54,5 +55,6 @@ conda install tensorflow=2.9.0 cudatoolkit=11.6 scikit-learn=0.24.2 numpy=1.26.4
  4. (Optional) Install any additional dependencies via pip if required
  pip install <package-name>
 ```
+This manual installation method gives us more control over versions and sources but is more prone to dependency conflicts compared to using the .yml file
 # License
 This software is copyrighted by [Bioinformatics Lab](https://nsclbio.jbnu.ac.kr/) @ Jeonbuk National University.
