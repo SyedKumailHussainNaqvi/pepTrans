@@ -21,7 +21,7 @@ The following is the list of required libraries and programs, along with the ver
 ## Installation Guide
 
 The recommended approach for setting up **pepTrans** is via [Anaconda](https://docs.anaconda.com/anaconda/install/index.html), ensuring a reproducible and isolated environment.  
-# Clone the repository
+### Clone the repository
 ```bash
 git clone https://github.com/SyedKumailHussainNaqvi/pepTrans.git
 ```
@@ -42,17 +42,17 @@ conda activate pepTrans
 
 ### Install Option 2: Install manually
 ```bash
-# 1. Create a new conda environment with Python 3.9
+ 1. Create a new conda environment with Python 3.9
 conda create -n pepTrans python=3.9 -y
 
-# 2. Activate the environment
+ 2. Activate the environment
 conda activate pepTrans
 
-# 3. Install core dependencies via conda
+ 3. Install core dependencies via conda
 conda install tensorflow=2.9.0 cudatoolkit=11.6 scikit-learn=0.24.2 numpy=1.26.4 pandas=2.2.3 matplotlib=3.4.3 h5py=3.9.0 -c conda-forge -y
 
-# 4. (Optional) Install any additional dependencies via pip if required
-# pip install <package-name>
+ 4. (Optional) Install any additional dependencies via pip if required
+ pip install <package-name>
 ```
 # License
 This software is copyrighted by [Bioinformatics Lab](https://nsclbio.jbnu.ac.kr/) @ Jeonbuk National University.
