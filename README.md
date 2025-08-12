@@ -57,6 +57,13 @@ conda install tensorflow=2.9.0 cudatoolkit=11.6 scikit-learn=0.24.2 numpy=1.26.4
 ```
 This manual installation method gives us more control over versions and sources but is more prone to dependency conflicts compared to using the .yml file
 ## Dataset and Protein Language Model (pLM) Features
+The datasets used for **pepTrans** are adapted from the [CAMP repository](https://github.com/whchanlab/CAMP).  
+For detailed instructions, please refer to the CAMP GitHub repository.  
+
+**pepTrans** uses pre-trained embeddings from the ProtTrans family of protein language models.  
+Specifically, **ProtT5-XL-UniRef50 (ProtT5-XL-U50)** embeddings are employed for feature extraction.  
+For more details, consult the [ProtTrans GitHub repository](https://github.com/agemagician/ProtTrans).
+
 * **Input**: Raw protein sequences in FASTA or CSV format.  
 * **Feature Extraction**: Performed using pre-trained pLMs to generate embeddings.  
 * **Output**: Embedding vectors stored in `.csv` or `.h5` format for model training and evaluation.
