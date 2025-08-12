@@ -68,7 +68,8 @@ For more details, consult the [ProtTrans GitHub repository](https://github.com/a
 
   ## Supported Parameters of pepTrans
   For a detailed description of pepTrans parameters and options, run:
-  ```bash
+  
+```bash
 python main.py --help
 ```
 This will display all supported parameters of pepTrans:
