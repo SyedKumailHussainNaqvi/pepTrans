@@ -34,7 +34,8 @@ conda env create -f pepTrans_env.yml
 
 # 4. Activate the environment
 conda activate pepTrans
-
+```
+```bash
 ### Install Option 2: Install manually
 # 1. Create a new conda environment with Python 3.9
 conda create -n pepTrans python=3.9 -y
@@ -47,5 +48,6 @@ conda install tensorflow=2.9.0 cudatoolkit=11.6 scikit-learn=0.24.2 numpy=1.26.4
 
 # 4. (Optional) Install any additional dependencies via pip if required
 # pip install <package-name>
+```
 # License
 This software is copyrighted by [Bioinformatics Lab](https://nsclbio.jbnu.ac.kr/) @ Jeonbuk National University.
