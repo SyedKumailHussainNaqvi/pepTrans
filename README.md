@@ -85,7 +85,7 @@ optional arguments:
                           'b'   - Binary classification (peptide–protein binding)
                           'bs'  - Binding site prediction (residue-level)
                           'ba'  - Binding affinity regression
-                          'pbd' - Peptide backbone distance prediction
+                          'pbd' - Peptide-PBD (Protein Binding Domain) prediction
                           'vs'  - Virtual screening of peptides
                           'vas' - Virtual alanine scanning mutagenesis
   --csv CSV             Path to input CSV file (for training or evaluation)
