@@ -25,18 +25,18 @@ The recommended approach for setting up **pepTrans** is via [Anaconda](https://d
 ```bash
 git clone https://github.com/SyedKumailHussainNaqvi/pepTrans.git
 ```
-```bash
+
 ### Install Option 1: Install via `pepTrans_env.yml` file (Recommended)
 
 We can easily install the environment by using the provided **`pepTrans_env.yml`** file. This configuration contains all required dependencies with tested versions.
-
-# 1. Navigate to the project directory
+```bash
+1. Navigate to the project directory
 cd pepTrans
 
-# 2. Create the conda environment from the .yml file
+2. Create the conda environment from the .yml file
 conda env create -f pepTrans_env.yml
 
-# 3. Activate the environment
+3. Activate the environment
 conda activate pepTrans
 ```
 
