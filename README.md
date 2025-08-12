@@ -18,6 +18,9 @@ The following is the list of required libraries and programs, along with the ver
 - [ ] [h5py](https://www.h5py.org/) (3.9.0) — Reading and writing HDF5 data files containing embeddings and labels.
 
 > **Note:** This environment has been tested with NVIDIA GPUs supporting CUDA 11.6.2 and cuDNN 8.5.0.96. Ensure that your system meets the GPU requirements for optimal performance.
+## Installation Guide
+
+The recommended approach for setting up **pepTrans** is via [Anaconda](https://docs.anaconda.com/anaconda/install/index.html), ensuring a reproducible and isolated environment.  
 ### Install Option 1: Install via `pepTrans_env.yml` file (Recommended)
 
 We can easily install the environment by using the provided **`pepTrans_env.yml`** file. This configuration contains all required dependencies with tested versions.
@@ -35,8 +38,9 @@ conda env create -f pepTrans_env.yml
 # 4. Activate the environment
 conda activate pepTrans
 ```
-```bash
+
 ### Install Option 2: Install manually
+```bash
 # 1. Create a new conda environment with Python 3.9
 conda create -n pepTrans python=3.9 -y
 
