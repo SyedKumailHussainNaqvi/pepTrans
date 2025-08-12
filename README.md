@@ -72,7 +72,7 @@ For more details, consult the [ProtTrans GitHub repository](https://github.com/a
 python main.py --help
 ```
 This will display all supported parameters of pepTrans:
-```
+```bash
 usage: main.py [-h] --mode {b,bs,ba,pbd,vs,vas} [--csv CSV] [--vas_csv VAS_CSV] [--label LABEL]
                [--train_h5 TRAIN_H5] [--test_h5 TEST_H5] [--gpu GPU] [--weights WEIGHTS]
                [--test_csv TEST_CSV]
