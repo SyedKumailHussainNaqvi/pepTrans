@@ -98,6 +98,7 @@ optional arguments:
   --test_csv TEST_CSV   Path to test CSV file (for evaluation of binary classification or regression)
 ```
 ## Running pepTrans
-pepTrans supports multiple modes for multi-level of Peptide–Protein Interactions predictions, enabling training, evaluation with pretrained models, and application to custom datasets.  
+**pepTrans** supports multiple modes for multi-level of Peptide–Protein Interactions predictions. Users can train models from scratch, evaluate using pretrained weights available in the [pepTrans weight repository](https://github.com/SyedKumailHussainNaqvi/pepTrans/tree/main/pepTrans%20weight), or apply the models directly to their own datasets for inference and analysis.
+
 # License
 This software is copyrighted by [Bioinformatics Lab](https://nsclbio.jbnu.ac.kr/) @ Jeonbuk National University.
