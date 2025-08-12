@@ -66,8 +66,8 @@ For more details, consult the [ProtTrans GitHub repository](https://github.com/a
 * **Feature Extraction**: Performed using pre-trained pLMs to generate embeddings.  
 * **Output**: Embedding vectors stored in `.csv` or `.h5` format for model training and evaluation.
 
-  ## Supported Parameters of pepTrans
-  For a detailed description of pepTrans parameters and options, run:
+## Supported Parameters of pepTrans
+For a detailed description of pepTrans parameters and options, run:
   
 ```bash
 python main.py --help
