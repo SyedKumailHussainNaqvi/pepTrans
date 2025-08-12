@@ -99,6 +99,25 @@ optional arguments:
 ```
 ## Running pepTrans
 **pepTrans** supports multiple modes for multi-level of Peptide–Protein Interactions predictions. Users can train models from scratch, evaluate using pretrained weights available in the folder [pepTrans weight](https://github.com/SyedKumailHussainNaqvi/pepTrans/tree/main/pepTrans%20weight), or apply the models directly to their own datasets for inference and analysis.
+Below are the main modes with example commands for both training from scratch and evaluating with pretrained models.
+### 1. Binary pepPIs (`b`)
+**Train from scratch:**
 
+```bash
+python main.py \
+    --mode b \
+    --csv path/to/dataset.csv \
+    --label LabelColumnName \
+    --gpu 0
+```
+**Evaluate with pretrained weights:**
+```bash
+python main.py \
+    --mode b \
+    --label LabelColumnName \
+    --weights path/to/model_weights.h5 \
+    --test_csv path/to/test_dataset.csv \
+    --gpu 0
+```
 # License
 This software is copyrighted by [Bioinformatics Lab](https://nsclbio.jbnu.ac.kr/) @ Jeonbuk National University.
