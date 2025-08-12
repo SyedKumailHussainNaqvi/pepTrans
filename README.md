@@ -136,7 +136,7 @@ python main.py \
     --gpu 0
 ```
 ### Other Modes
-All other prediction tasks—including Binding Affinity Regression (`ba`), Peptide Backbone Distance Prediction (`pbd`), Virtual Screening (`vs`), and Virtual Alanine Scanning (`vas`)—follow the same general strategy:
+All other prediction tasks—including Binding Affinity Regression (`ba`), Peptide-PBD (Protein Binding Domain) Prediction (`pbd`), Virtual Screening (`vs`), and Virtual Alanine Scanning (`vas`)—follow the same general strategy:
 
 - **Training:** Provide the relevant training dataset (CSV or HDF5) with `--csv` or `--train_h5` along with `--mode`.
 - **Evaluation:** Specify pretrained weights with `--weights` and corresponding test datasets with `--test_csv` or `--test_h5`.
