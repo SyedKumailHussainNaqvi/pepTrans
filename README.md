@@ -21,16 +21,15 @@ The following is the list of required libraries and programs, along with the ver
 ## Installation Guide
 
 The recommended approach for setting up **pepTrans** is via [Anaconda](https://docs.anaconda.com/anaconda/install/index.html), ensuring a reproducible and isolated environment.  
-### Install Option 1: Install via `pepTrans_env.yml` file (Recommended)
-
-We can easily install the environment by using the provided **`pepTrans_env.yml`** file. This configuration contains all required dependencies with tested versions.
-
-
-# 1. Clone the repository
+# Clone the repository
 ```bash
 git clone https://github.com/SyedKumailHussainNaqvi/pepTrans.git
 ```
 ```bash
+### Install Option 1: Install via `pepTrans_env.yml` file (Recommended)
+
+We can easily install the environment by using the provided **`pepTrans_env.yml`** file. This configuration contains all required dependencies with tested versions.
+
 # 1. Navigate to the project directory
 cd pepTrans
 
