@@ -1,5 +1,5 @@
 # pepTrans
-pepTrans: Leveraging Protein Language Model Embeddings for Structure-Free Multi-Level Modeling of Peptide–Protein Interactions
+pepTrans: Embedding-Based Transformer Framework for Multi-Level Peptide–Protein Interaction Prediction
 
 ## Software Prerequisites
 
