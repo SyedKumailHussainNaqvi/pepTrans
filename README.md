@@ -1,9 +1,7 @@
 # [pepTrans](https://)
 pepTrans: Embedding-Based Transformer Framework for Multi-Level Peptide–Protein Interaction Prediction
-
-## Software Prerequisites
-
 --------------------
+## Software Prerequisites
 
 **pepTrans** relies on external Python libraries and frameworks to process protein and peptide datasets, extract embedding features, and perform deep learning-based classification and regression tasks.  
 The following is the list of required libraries and programs, along with the versions on which the model was tested.
