@@ -9,7 +9,7 @@ The `datasets/` directory contains all benchmark datasets, clustering-based cros
 
 These datasets are publicly released to improve reproducibility, benchmarking transparency, downstream usability, and independent evaluation of the proposed framework.
 
-The released datasets correspond to the experiments reported in the revised pepTrans manuscript and supplementary materials.
+The released datasets correspond to the experiments reported in the pepTrans manuscript and supplementary materials.
 
 ---
 
