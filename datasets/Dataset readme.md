@@ -77,9 +77,12 @@ The corresponding receptor and peptide sequences can be directly extracted from 
 
 ## Sequence Reconstruction
 
-Some benchmark datasets contain PDB-chain identifiers instead of explicit amino acid sequences. In such cases, the corresponding receptor and peptide sequences can be reconstructed directly from experimentally resolved PDB structures.
+Some benchmark datasets contain PDB-chain identifiers instead of explicit amino acid sequences. In such cases, the corresponding receptor and peptide sequences can either:
 
-For improved reproducibility and downstream usability, the revised pepTrans repository additionally provides sequence-level datasets wherever applicable.
+- be directly extracted from the benchmark datasets provided in the `pepPI binary interaction` directory (for sequence-level versions), or
+- be reconstructed from experimentally resolved PDB structures using the associated chain identifiers.
+
+For improved reproducibility and downstream usability, the pepTrans repository additionally provides sequence-level datasets wherever applicable.
 
 ---
 
@@ -154,7 +157,7 @@ Each threshold directory contains:
 
 where `X` denotes the fold index.
 
-These split files correspond exactly to the experiments reported in the revised manuscript and supplementary materials.
+These split files correspond exactly to the experiments reported in the manuscript and supplementary materials.
 
 ---
 
@@ -203,7 +206,7 @@ These datasets were used for binding affinity prediction experiments reported in
 
 # Reproducibility and Data Availability
 
-The datasets released in this repository correspond to the exact datasets, clustering thresholds, and fold assignments used in the revised pepTrans manuscript.
+The datasets released in this repository correspond to the exact datasets, clustering thresholds, and fold assignments used in the pepTrans manuscript.
 
 The repository includes:
 
