@@ -15,7 +15,7 @@ The following is the list of required libraries and programs, along with the ver
 - [ ] [Pandas](https://pandas.pydata.org/) (2.2.3) — Data manipulation and analysis.
 - [ ] [Matplotlib](https://matplotlib.org/) (3.4.3) — Visualization of performance metrics and results.
 - [ ] [h5py](https://www.h5py.org/) (3.9.0) — Reading and writing HDF5 data files containing embeddings and labels.
-- [ ] [tensorflow_addons]((https://www.tensorflow.org/) — For AdamW 'pip install tensorflow-addons'.
+- [ ] [tensorflow_addons](https://www.tensorflow.org/) — For AdamW 'pip install tensorflow-addons'.
 
 > **Note:** This environment has been tested with NVIDIA GPUs supporting CUDA 11.6.2 and cuDNN 8.5.0.96. Ensure that your system meets the GPU requirements for optimal performance.
 ## Installation Guide
