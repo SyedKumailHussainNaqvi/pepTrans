@@ -70,7 +70,7 @@ This example demonstrates sequence-based binary peptide–protein interaction pr
 ## Example Input File
 
 ```text
-example_sequences.csv
+examples_binary_interaction_sequences.csv
 ```
 
 ---
