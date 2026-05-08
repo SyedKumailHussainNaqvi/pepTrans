@@ -138,7 +138,7 @@ optional arguments:
 **pepTrans** supports multiple modes for multi-level of Peptide–Protein Interactions predictions. Users can train models from scratch, evaluate using pretrained weights available in the folder [pepTrans weight](https://github.com/SyedKumailHussainNaqvi/pepTrans/tree/main/pepTrans%20weight), or apply the models directly to their own datasets for inference and analysis.
 # 1. Sequence-Based Prediction
 
-The updated implementation of pepTrans supports direct prediction from raw peptide and protein sequences.
+The implementation of pepTrans supports direct prediction from raw peptide and protein sequences.
 
 Users can provide:
 
