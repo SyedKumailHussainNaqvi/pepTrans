@@ -23,7 +23,9 @@ Automatic ProtT5 Embedding Generation
 pepTrans Prediction
 ```
 
-Users can now directly provide peptide and protein sequences without manually generating embeddings.
+Users can directly provide peptide and protein sequences without manually generating embeddings.
+
+---
 --------------------
 ## Software Prerequisites
 
