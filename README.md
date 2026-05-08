@@ -12,8 +12,10 @@ pepTrans supports:
 - Peptide–PBD prediction
 - Virtual screening of peptides
 - Virtual alanine scanning mutagenesis
+  
+pepTrans supports both sequence-based and precomputed embedding-based inference
 
-The pepTrans additionally supports:
+The pepTrans sequence-based supports:
 
 ```text
 Raw peptide/protein sequences
