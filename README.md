@@ -13,22 +13,32 @@ pepTrans supports:
 - Virtual screening of peptides
 - Virtual alanine scanning mutagenesis
   
-pepTrans supports both sequence-based and precomputed embedding-based inference
+The pepTrans supports both:
 
-The pepTrans sequence-based supports:
+1. **Precomputed embedding-based inference**
+2. **Direct sequence-based inference**
+
+# Workflow
+
+## Sequence-Based Prediction
 
 ```text
-Raw peptide/protein sequences
+Raw Peptide/Protein Sequences
                 ↓
 Automatic ProtT5 Embedding Generation
                 ↓
 pepTrans Prediction
 ```
 
-Users can directly provide peptide and protein sequences without manually generating embeddings.
+## Precomputed Embedding-Based Prediction
+
+```text
+Precomputed Embeddings (.csv/.h5)
+                ↓
+pepTrans Prediction
+```
 
 ---
---------------------
 ## Software Prerequisites
 
 **pepTrans** relies on external Python libraries and frameworks to process protein and peptide datasets, extract embedding features, and perform deep learning-based classification and regression tasks.  
