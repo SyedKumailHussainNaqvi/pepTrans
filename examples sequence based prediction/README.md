@@ -297,6 +297,52 @@ Residue 06 A: Binding residue | Probability = 0.8500
 Residue 07 E: Binding residue | Probability = 0.8426
 Residue 08 D: Binding residue | Probability = 0.6698
 
+bs_sample_2
+Peptide: ACDEFGHIK
+Overall peptide status: Interaction / contains predicted binding residues
+Residue 01 A: Binding residue | Probability = 0.7230
+Residue 02 C: Binding residue | Probability = 0.9244
+Residue 03 D: Binding residue | Probability = 0.9374
+Residue 04 E: Binding residue | Probability = 0.8910
+Residue 05 F: Binding residue | Probability = 0.9644
+Residue 06 G: Binding residue | Probability = 0.9054
+Residue 07 H: Binding residue | Probability = 0.8662
+Residue 08 I: Binding residue | Probability = 0.8818
+Residue 09 K: Binding residue | Probability = 0.7662
+
+bs_sample_5
+Peptide: RVCPRILMECKKDSDCLAECVCLEHGYCG
+Overall peptide status: Interaction / contains predicted binding residues
+Residue 01 R: Binding residue | Probability = 0.9181
+Residue 02 V: Binding residue | Probability = 0.9782
+Residue 03 C: Binding residue | Probability = 0.9926
+Residue 04 P: Binding residue | Probability = 0.9260
+Residue 05 R: Binding residue | Probability = 0.9976
+Residue 06 I: Binding residue | Probability = 0.9755
+Residue 07 L: Binding residue | Probability = 0.8937
+Residue 08 M: Binding residue | Probability = 0.8485
+Residue 09 E: Binding residue | Probability = 0.6890
+Residue 10 C: Non-binding residue | Probability = 0.2578
+Residue 11 K: Non-binding residue | Probability = 0.0431
+Residue 12 K: Non-binding residue | Probability = 0.0553
+Residue 13 D: Non-binding residue | Probability = 0.1292
+Residue 14 S: Non-binding residue | Probability = 0.0099
+Residue 15 D: Non-binding residue | Probability = 0.0729
+Residue 16 C: Non-binding residue | Probability = 0.3261
+Residue 17 L: Binding residue | Probability = 0.5411
+Residue 18 A: Non-binding residue | Probability = 0.2468
+Residue 19 E: Non-binding residue | Probability = 0.3246
+Residue 20 C: Non-binding residue | Probability = 0.4209
+Residue 21 V: Non-binding residue | Probability = 0.4048
+Residue 22 C: Non-binding residue | Probability = 0.3204
+Residue 23 L: Non-binding residue | Probability = 0.4333
+Residue 24 E: Non-binding residue | Probability = 0.4812
+Residue 25 H: Binding residue | Probability = 0.5188
+Residue 26 G: Non-binding residue | Probability = 0.4372
+Residue 27 Y: Binding residue | Probability = 0.5621
+Residue 28 C: Binding residue | Probability = 0.7930
+Residue 29 G: Binding residue | Probability = 0.8259
+
 
 === Test Set Evaluation ===
 
