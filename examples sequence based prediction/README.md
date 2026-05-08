@@ -4,7 +4,7 @@ Example sequence-based inference files for pepTrans: End-to-End Peptide–Protei
 
 --------------------
 
-## Overview
+# Overview
 
 The `examples_sequence_based_prediction/` directory contains example input sequence files, automatically generated ProtT5 embedding files, and example outputs for running pepTrans directly from raw peptide and protein sequences.
 
@@ -61,6 +61,108 @@ examples_sequence_based_prediction/
 
 ---
 
+# Quick Start: Create Example CSV Files
+
+For user convenience, example input CSV files can be created directly from the terminal using the following commands.
+
+---
+
+## 1. Create Binary Interaction Example CSV
+
+```bash
+cat > "/home/kumail/Bioinformatics/github pepTrans/example_sequences.csv" << 'EOF'
+IDs,Peptide,Protein,Label
+sample_1,KLVFFAED,MKTAYIAKQRQISFVKSHFSRQLEERLGLIEVQANLAGK,1
+sample_2,ACDEFGHIK,MGSSHHHHHHSSGLVPRGSHMASMTGGQQMGRGSEF,0
+EOF
+```
+
+Check the file:
+
+```bash
+cat "/home/kumail/Bioinformatics/github pepTrans/example_sequences.csv"
+```
+
+---
+
+## 2. Create Peptide Binding Residue Example CSV
+
+```bash
+cat > "/home/kumail/Bioinformatics/github pepTrans/example_binding_site_sequences.csv" << 'EOF'
+IDs,Peptide,Protein,peptide_labels
+bs_sample_1,KLVFFAED,MKTAYIAKQRQISFVKSHFSRQLEERLGLIEVQANLAGK,11100000
+bs_sample_2,ACDEFGHIK,MGSSHHHHHHSSGLVPRGSHMASMTGGQQMGRGSEF,001111000
+bs_sample_3,RRWEQKLVHIKTMEGEFSVTMWASGIS,MEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGP,000011111100000000001111000
+bs_sample_4,CKRIHIGPGRAFYTTC,EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSAISGSGGSTYYADSVKG,0111111110000000
+bs_sample_5,RVCPRILMECKKDSDCLAECVCLEHGYCG,IVGGYTCGANTVPYQVSLNSGYHFCGGSLINSQWVVSAAHCYKSGIQVRLGEDNINVVEGNEQF,11111100000011111100000011111
+bs_sample_6,ACEDTRRPRVARWTGQIIYCS,MGHHHHHHSSGVDLGTENLYFQSMASMTGGQQMGRGSEFELKSLVQKAKLAEQAERYDDMAAAMK,000001111111000000000
+bs_sample_7,GILGFVFTL,MAVMAPRTLLLLLSGALALTQTWAGSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQR,111111110
+bs_sample_8,LLFGYPVYV,MRVTAPRTVLLLLSAALALTETWAGSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQR,001111100
+bs_sample_9,SIINFEKL,MENFQKVEKIGEGTYGVVYKARNKLTGEVVALKKIRLDTETEGVPSTAIREISLLKELNHPNIVK,11110000
+bs_sample_10,KRWIILGLNK,MDYKDDDDKLVPRGSHMASMTGGQQMGRGSEFPMTQYQRESLRIKLEQQL,0111111110
+EOF
+```
+
+Check the file:
+
+```bash
+cat "/home/kumail/Bioinformatics/github pepTrans/example_binding_site_sequences.csv"
+```
+
+### Important Note for Binding Residue Labels
+
+For binding-site prediction, the length of `peptide_labels` must match the peptide sequence length.
+
+Each label corresponds to one peptide residue:
+
+```text
+1 = binding residue
+0 = non-binding residue
+```
+
+Example:
+
+```text
+Peptide:         KLVFFAED
+peptide_labels:  11100000
+```
+
+This means:
+
+| Residue | Label |
+|---|---|
+| K | 1 |
+| L | 1 |
+| V | 1 |
+| F | 0 |
+| F | 0 |
+| A | 0 |
+| E | 0 |
+| D | 0 |
+
+---
+
+## 3. Create Binding Affinity Example CSV
+
+```bash
+cat > "/home/kumail/Bioinformatics/github pepTrans/example_binding_affinity_sequences.csv" << 'EOF'
+IDs,Peptide,Protein,Log_Affinity
+ba_sample_1,KLVFFAED,MKTAYIAKQRQISFVKSHFSRQLEERLGLIEVQANLAGK,7.20
+ba_sample_2,ACDEFGHIK,MGSSHHHHHHSSGLVPRGSHMASMTGGQQMGRGSEF,6.85
+ba_sample_3,RRWEQKLVHIKTMEGEFSVTMWASGIS,MEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGP,8.10
+ba_sample_4,CKRIHIGPGRAFYTTC,EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSAISGSGGSTYYADSVKG,7.95
+ba_sample_5,RVCPRILMECKKDSDCLAECVCLEHGYCG,IVGGYTCGANTVPYQVSLNSGYHFCGGSLINSQWVVSAAHCYKSGIQVRLGEDNINVVEGNEQF,8.50
+EOF
+```
+
+Check the file:
+
+```bash
+cat "/home/kumail/Bioinformatics/github pepTrans/example_binding_affinity_sequences.csv"
+```
+
+---
+
 # 1. Binary Peptide–Protein Interaction Prediction
 
 This example demonstrates sequence-based binary peptide–protein interaction prediction.
@@ -70,7 +172,7 @@ This example demonstrates sequence-based binary peptide–protein interaction pr
 ## Example Input File
 
 ```text
-examples_binary_interaction_sequences.csv
+example_sequences.csv
 ```
 
 ---
