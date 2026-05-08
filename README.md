@@ -2,7 +2,7 @@
 pepTrans: Embedding-Based Transformer Framework for Multi-Level Peptide–Protein Interaction Prediction
 # Overview
 
-pepTrans is a deep learning framework for multi-level peptide–protein interaction analysis using protein language model (pLM) representations and transformer-based neural architectures.
+pepTrans is a deep learning framework for multi-level peptide–protein interaction analysis using transformer-based protein language model (pLM) representations and CNN-based neural architectures.
 
 pepTrans supports:
 
