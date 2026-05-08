@@ -8,7 +8,7 @@ Example sequence-based inference files for pepTrans: End-to-End Peptide–Protei
 
 The `examples_sequence_based_prediction/` directory contains example input sequence files, automatically generated ProtT5 embedding files, and example outputs for running pepTrans directly from raw peptide and protein sequences.
 
-These examples demonstrate the updated end-to-end inference workflow introduced in the revised version of pepTrans:
+These examples demonstrate the end-to-end inference workflow of pepTrans:
 
 ```text
 Peptide and Protein Sequences
